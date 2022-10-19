@@ -1,12 +1,4 @@
-import axios from 'axios'
-
-const http = axios.create({
-    baseURL:"http://localhost:3000/660/",
-    headers:{
-      "Authorization": "Bearer "+ sessionStorage.getItem("jwt")
-    }
-})
-
+import http from "../services/http-common";
 export class CommentsServices {
 
     getComments = () => {

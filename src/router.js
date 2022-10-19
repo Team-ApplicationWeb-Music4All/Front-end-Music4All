@@ -1,21 +1,22 @@
 import { createRouter,createWebHistory  } from "vue-router"; //Vue vite
 
-import Home from './components/Home.vue';
-import About from './components/About.vue'
-import Product from './components/Product.vue';
+import Home from './Views/Home.vue';
 import Comment from './components/Comment.vue';
-import Post from './components/Post.vue';
-import NewComment from './components/comment.new.vue';
-import Login from "@/components/Login.vue";
-
+import Login from "@/Views/Login.vue";
+import Message from './components/Messages.vue';
+import Explorer from './components/Explorer.vue'
+import Profile from './components/Profile.vue'
+import ListCards from "./components/ListCards.vue";
 
 const routes = [ //definimos rutas|
   { path: '/', component: Home },
-  { path: '/product', component: Product },
   { path: '/comment', component: Comment },
-  { path: '/newcomment', component: NewComment },
-  { path: '/post', component: Post },
+  { path: '/messages', component: Message },
+  { path: '/profile', component: Profile },
   { path: '/login', component: Login },
+  { path: '/home', component: Home },
+  { path: '/explorer', component: Explorer },
+  { path: '/list', component: ListCards },
 ]
 
 const history = createWebHistory();

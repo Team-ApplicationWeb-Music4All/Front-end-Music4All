@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "photoUrl": "https://torontofoodtrucks.ca/wp-content/uploads/2021/06/20210614-tuts-cooking.jpg",
+      "title": "Toronto’s newest",
+      "summary": "Tut’ood in Toronto with Instagram-worthy packaging."
+    },
+    {
+      "id": 2,
+      "photoUrl": "https://torontofoodtrucks.ca/wp-content/uploads/2021/05/Arepa_Republic.jpg",
+      "title": "How a Venezuelan family",
+      "summary": "Luis and Veronika taste of Venezuelan culture to Canada."
+    },
+    {
+      "id": 3,
+      "photoUrl": "https://roaminghunger.com/blog/wp-content/uploads/2022/08/The-Spicy-Kitchen-Mexican-Grill-Denver-1024x481.jpg",
+      "title": "The 7 Tastiest",
+      "summary": "When people think of Denver, they don’t typically associate."
+    },
+    {
+      "id": 4,
+      "photoUrl": "https://roaminghunger.com/blog/wp-content/uploads/2022/07/The-Loaded-Taco-Atlanta.jpg",
+      "title": "Top Taco Trucks",
+      "summary": "Atlanta is well-known for its rich and diverse food scene, and it’s a great place to be if you’re."
+    },
+    {
+      "id": 5,
+      "photoUrl": "https://roaminghunger.com/blog/wp-content/uploads/2022/07/Rosarito-Austin-1024x682.jpg",
+      "title": "27 Awesome Austin",
+      "summary": "Austin, Texas, is a melting."
+    },
+    {
+      "id": 6,
+      "photoUrl": "https://roaminghunger.com/blog/wp-content/uploads/2016/12/food-truck-wedding.jpg",
+      "title": "How Much Does",
+      "summary": "These days, traditional catering is increasingly."
+    }
+  ]
+}

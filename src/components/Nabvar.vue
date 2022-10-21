@@ -36,7 +36,8 @@ export default {
       items: [
         { label: "Explorer", to: "/explorer" },
         { label: "Messages", to: "/messages" },
-        { label: "Profile", to: "/profile" }
+        { label: "Profile", to: "/profile" },
+        { label: "Exit", to: "/home" }
       ],
     };
   },

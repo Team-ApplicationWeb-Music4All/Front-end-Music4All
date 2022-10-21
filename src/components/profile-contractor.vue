@@ -8,7 +8,7 @@
 
         <pv-card >
           <template #header>
-            <img alt="user header" src="src/assets/myprofile.png">
+            <img  alt="user-header" src="src/assets/myprofile.png">
           </template>
           <template #title>
             Alejandro Winget
@@ -82,6 +82,9 @@ export default {
 </script>
 
 <style>
+img{
+  height: 80px;
+}
 
 .grid3c {
   display: grid;
@@ -124,4 +127,5 @@ p {
 .profile{
   margin: 50px;
 }
+
 </style>

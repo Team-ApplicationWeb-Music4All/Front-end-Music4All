@@ -24,6 +24,7 @@ import 'primevue/resources/primevue.min.css' //core css
 import 'primeicons/primeicons.css'
 import '/node_modules/primeflex/primeflex.css'
 import OrderList from "primevue/orderlist";
+import Checkbox from "primevue/checkbox";
 
 
 const app = createApp(App);
@@ -45,5 +46,5 @@ app.component("pv-sidebar", Sidebar);
 app.component("pv-card", Card);
 app.component("pv-dialog", Dialog);
 app.component("pv-orderlist", OrderList);
-
+app.component("pv-Checkbox", Checkbox);
 app.mount('#app')

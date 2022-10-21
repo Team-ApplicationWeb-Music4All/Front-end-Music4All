@@ -7,6 +7,7 @@ import Message from './components/Messages.vue';
 import Explorer from './components/Explorer.vue'
 import Profile from './components/profile-musician.vue'
 import ListCards from "./components/ListCards.vue";
+import Register from "./Views/Register.vue";
 
 const routes = [ //definimos rutas|
   { path: '/', component: Home },
@@ -17,6 +18,7 @@ const routes = [ //definimos rutas|
   { path: '/home', component: Home },
   { path: '/explorer', component: Explorer },
   { path: '/list', component: ListCards },
+  { path: '/register', component: Register },
 ]
 
 const history = createWebHistory();

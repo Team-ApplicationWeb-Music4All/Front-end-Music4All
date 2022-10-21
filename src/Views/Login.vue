@@ -9,14 +9,14 @@
 
     <div class="text-center mb-5">
       <label for="email" class="block text-900 font-medium mb-2">Email</label>
-      <InputText id="email" type="text" class="w-25rem  mb-6" />
+      <pv-input-text id="email" type="text" class="w-25rem  mb-6" />
 
       <label for="password" class="block text-900 font-medium mb-2">Password</label>
-      <InputText id="password" type="password" class="w-25rem mb-6" />
+      <pv-input-text id="password" type="password" class="w-25rem mb-6" />
 
       <div class="flex align-items-center justify-content-between mb-6">
         <div class="flex align-items-center">
-          <Checkbox id="rememberme" :binary="true" v-model="checked" class="mr-2"></Checkbox>
+          <pv-Checkbox style="color:black" id="rememberme" :binary="true" v-model="checked" class="mr-2"></pv-Checkbox>
           <label for="rememberme">Remember me</label>
         </div>
         <a class="font-medium no-underline ml-2 text-blue-500 text-right cursor-pointer">Forgot password?</a>

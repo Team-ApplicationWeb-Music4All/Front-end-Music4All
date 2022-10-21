@@ -36,5 +36,31 @@
       "title": "How Much Does",
       "summary": "These days, traditional catering is increasingly."
     }
+  ],
+  "musicians": [
+    {
+      "id": 1,
+      "photoUrl": "https://ant777.club/wp-content/uploads/2022/10/Music-Shakira-Ft-Ozuna-%E2%80%93-Monotonia-Mp3-Download.jpg",
+      "title": "Monotonia",
+      "artist": "Shakira y Ozuna"
+    },
+    {
+      "id": 2,
+      "photoUrl": "https://akns-images.eonline.com/eol_images/Entire_Site/2022728/rs_1024x1024-220828210510-1024--taylor-swift-midnight.jpg?fit=around%7C1024:1024&output-quality=90&crop=1024:1024;center,top",
+      "title": "Anti-hero",
+      "artist": "Taylor Swift"
+    },
+    {
+      "id": 3,
+      "photoUrl": "https://m.media-amazon.com/images/I/71oyOrndXmL._AC_SL1400_.jpg",
+      "title": "Irresistible",
+      "artist": "Fall out boy"
+    },
+    {
+      "id": 4,
+      "photoUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Ariana_Grande_-_Problem_%28feat._Iggy_Azalea%29.png",
+      "title": "Problem",
+      "artist": "Ariana Grande"
+    }
   ]
 }

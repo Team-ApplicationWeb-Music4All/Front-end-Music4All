@@ -8,7 +8,7 @@
 
         <pv-card >
           <template #header>
-            <img alt="user header" src="src/assets/myprofile.png">
+            <img  alt="user-header" src="src/assets/myprofile.png">
           </template>
           <template #title>
             Alejandro Winget
@@ -57,7 +57,7 @@ export default {
 
     RaCard,
   },
-  name: "Profile",
+  name: "ProfileMusician",
   data() {
     return {
       PostsData: [],
@@ -82,7 +82,6 @@ export default {
 </script>
 
 <style>
-
 .grid3c {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -90,37 +89,30 @@ export default {
   gap: 20px;
   margin:15px;
 }
-
 h1 {
   font-family: "Roboto",serif;
   text-align: center;
   margin-bottom: 40px;
   margin-top: 30px;
 }
-
 p.info {
   font-family: "Roboto",serif;
   margin-bottom: 100px;
   font-size: 1rem;
 }
-
 h1,
 p {
   text-align: center;
 }
-
 .container{
   display:flex;
   align-content: center;
   margin-left: 50px;
   padding:70px;
 }
-
 .p-card-body{
   margin:50px;
-
 }
-
 .profile{
   margin: 50px;
 }

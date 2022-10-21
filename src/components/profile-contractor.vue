@@ -57,7 +57,7 @@ export default {
 
     RaCard,
   },
-  name: "Profile",
+  name: "ProfileContractor",
   data() {
     return {
       PostsData: [],

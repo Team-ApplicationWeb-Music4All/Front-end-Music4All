@@ -1,44 +1,50 @@
 <template>
 
-  <div class="flex" >
-    <div>
-      <h1>My Profile</h1>
+  <div class="grid" >
+    <div class="col-6">
 
-      <pv-card >
-        <template #header>
-          <img alt="user header" src="https://roaminghunger.com/blog/wp-content/uploads/2022/07/Rosarito-Austin-1024x682.jpg">
-        </template>
-        <template #title>
-          Advanced Card
-        </template>
-        <template #content>
-          Loerendis esse, cupiditate neque quas!
-        </template>
-        <template #footer>
-          <pv-button icon="pi pi-check" label="Save" />
-          <pv-button icon="pi pi-times" label="Cancel" class="p-button-secondary" style="margin-left: .5em" />
-        </template>
-      </pv-card>
+      <div class="profile">
+        <h1>My Profile</h1>
 
-    </div>
-    <Divider layout="vertical" />
-    <div>
+        <pv-card >
+          <template #header>
+            <img alt="user header" src="src/assets/myprofile.png">
+          </template>
+          <template #title>
+            Alejandro Winget
+          </template>
+          <template #content>
+            976259721 Alejo@gmail.com
+          </template>
 
-      <div class="team-container">
-        <div class="grid3c">
-          <ra-card
-            v-for="postData in PostsData"
-            :key="postData.id"
-            :PostData="postData"
-            style="max-width: 400px"
-          ></ra-card>
-        </div>
+        </pv-card>
+
       </div>
+    </div>
 
+
+    <div class="col-6" >
+
+      <div class="container">
+
+        <div class="team-container">
+          <div class="grid1c">
+            <ra-card
+              v-for="postData in PostsData"
+              :key="postData.id"
+              :PostData="postData"
+              style="max-width: 400px"
+            ></ra-card>
+          </div>
+        </div>
+
+
+      </div>
 
     </div>
 
   </div>
+
 
 
 </template>
@@ -103,4 +109,19 @@ p {
   text-align: center;
 }
 
+.container{
+  display:flex;
+  align-content: center;
+  margin-left: 50px;
+  padding:70px;
+}
+
+.p-card-body{
+  margin:50px;
+
+}
+
+.profile{
+  margin: 50px;
+}
 </style>

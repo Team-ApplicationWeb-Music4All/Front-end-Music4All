@@ -51,4 +51,6 @@ export default {
 img {
   width: 300px;
 }
+
+
 </style>

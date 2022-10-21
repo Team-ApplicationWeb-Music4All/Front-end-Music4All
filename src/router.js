@@ -5,7 +5,7 @@ import Comment from './components/Comment.vue';
 import Login from "@/Views/Login.vue";
 import Message from './components/Messages.vue';
 import Explorer from './components/Explorer.vue'
-import Profile from './components/Profile.vue'
+import Profile from './components/profile-musician.vue'
 import ListCards from "./components/ListCards.vue";
 
 const routes = [ //definimos rutas|

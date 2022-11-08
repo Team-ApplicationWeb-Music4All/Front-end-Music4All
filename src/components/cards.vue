@@ -5,7 +5,7 @@
       <template #content>
         <p>{{ PostData.summary }}</p>
         <p>
-          <img :src="`${PostData.photoUrl}`" class="img-responsive" />
+          <img :src="`${PostData.photoUrl}`" class="img-responsive"/>
         </p>
       </template>
       <template #footer>
@@ -50,7 +50,7 @@ export default {
 <style scoped>
 img {
   width: 300px;
+  max-width: 200px;
 }
-
 
 </style>

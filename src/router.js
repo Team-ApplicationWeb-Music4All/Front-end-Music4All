@@ -7,10 +7,13 @@ import Message from './components/Messages.vue';
 import Explorer from './components/Explorer.vue'
 import ListCards from "./components/ListCards.vue";
 import Register from "./Views/Register.vue";
+import Recuperate from "./Views/Recuperate.vue";
+import Verify from "./components/VeriryRequest.vue";
 import LoginMusician from "./components/login-musician.vue";
 import LoginContractor from "./components/login-contractor.vue";
 import ProfileMusician from "./components/profile-musician.vue";
 import ProfileContractor from "./components/profile-contractor.vue";
+import EdiProfiles from "./components/EditProfile.vue";
 
 const routes = [ //definimos rutas|
   { path: '/', component: Home },
@@ -23,8 +26,11 @@ const routes = [ //definimos rutas|
   { path: '/explorer', component: Explorer },
   { path: '/list', component: ListCards },
   { path: '/register', component: Register },
+  { path: '/recuperate', component: Recuperate },
+  { path: '/verify', component: Verify },
   { path: '/loginMusician', component: LoginMusician },
   { path: '/loginContractor', component: LoginContractor },
+  { path: '/editprofile', component: EdiProfiles },
 ]
 
 const history = createWebHistory();

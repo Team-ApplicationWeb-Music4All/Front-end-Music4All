@@ -7,7 +7,7 @@
 import RaToolBarVue from "./components/Nabvar.vue";
 export default {
   components: {
-    RaToolBarVue,
+    //RaToolBarVue,
   },
   data() {
     return {};

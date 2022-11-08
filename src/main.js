@@ -8,6 +8,7 @@ import InputMask from 'primevue/inputmask';
 import Dropdown from 'primevue/dropdown';
 import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
+import Image from 'primevue/image';
 //icons
 import router from "./router";
 import Toolbar from "primevue/toolbar";
@@ -19,12 +20,14 @@ import Dialog from "primevue/dialog";
 import i18n from './locales/i18n';
 import PrimeVue from 'primevue/config';
 //import { createI18n } from 'vue-i18n'; //importa
+import 'primevue/resources/themes/saga-orange/theme.css' //theme
 import 'primevue/resources/themes/saga-blue/theme.css' //theme
 import 'primevue/resources/primevue.min.css' //core css
 import 'primeicons/primeicons.css'
 import '/node_modules/primeflex/primeflex.css'
 import OrderList from "primevue/orderlist";
 import Checkbox from "primevue/checkbox";
+
 
 
 const app = createApp(App);
@@ -34,6 +37,7 @@ app.use(i18n); //inject
 app.use(router);
 
 app.component('pv-button', Button);
+app.component('pv-image', Image);
 app.component('pv-input-text', InputText);
 app.component('pv-input-number', InputNumber);
 app.component('pv-input-mask', InputMask);

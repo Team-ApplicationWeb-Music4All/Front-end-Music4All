@@ -1,0 +1,14 @@
+{
+  "code" :"Code",
+  "username" :"Username",
+  "lastname" :"Last-name",
+  "mail" :"Personal-Email",
+  "password" :"Password",
+  "confirm" :"Confirm Pass",
+  "name": "Name",
+  "phone": "Phone",
+  "greeting": "Hello, {name}",
+  "location": "Location",
+  "age": "Age",
+  "credit": "Credit"
+}
